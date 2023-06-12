@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:320px) {
+
+
+    h2,.para1,.para2,.para3,.para4,.para5{
+        padding-left: .2rem;
+    }
+
+    .link {
+        margin-left: 1rem;
+    }
+
+    .memberCard a {
+        left: 27%;
+        bottom: 61%;
+        padding: 5px 15px;
+    }
+    
+    img {
+        width: 75%;
+    }
+}
+
+@media (min-width:620px) {
+
+
+    h2,.para1,.para2,.para3,.para4,.para5{
+        padding-left: 3rem;
+    }
+
+    .link {
+        margin-left: 4rem;
+    }
+
+    .memberCard a {
+        left: 30%;
+        bottom: 52%;
+        padding: 10px 30px;
+    }
+
+    
+
+}
+
+@media (min-width:920px) {
+
+    h2,.para1,.para2,.para3,.para4,.para5{
+        padding-left: 7rem;
+    }
+
+    .link {
+        margin-left: 9rem;
+    }
+
+    .memberCard a {
+        left: 12%;
+        bottom: 30%;
+        padding: 10px 35px;
+    }
+
+    img {
+        width: 35%;
+    }
+}
+
+
+.para4 {
+    width: 40%;
+}
+
+img {
+    border-radius: 20px 0 20px 0;
+}
+
+h2,
+.para1,
+.para3 {
+    padding-bottom: 10px;
+}
+
+.para2 {
+    padding-bottom: 20px;
+}
+
+img {
+    height: auto;
+    position: relative;
+}
+
+
+.link {
+    color: #000000;
+    border: 1px solid #ffc451;
+    background-color: #ffc451;
+    display: inline;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.memberCard a {
+    position: absolute;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    border: 1px solid #3498DB;
+    color:#ffff;
+    text-decoration: none;
+    background: #5DADE2;
+
+}
+
+.toast-view {
+    position: relative;
+    display: none;
+}
+
+#cancel {
+    position: absolute;
+    left: 32%;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.clip {
+    display: block;
+}
